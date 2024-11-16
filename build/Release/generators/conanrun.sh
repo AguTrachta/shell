@@ -1,0 +1,1 @@
+. "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/Release/generators/conanrunenv-release-x86_64.sh"

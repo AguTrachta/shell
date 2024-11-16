@@ -1,0 +1,3 @@
+[submodule "monitor_program"]
+	path = monitor_program
+	url = https://github.com/AguTrachta/monitor_program.git
