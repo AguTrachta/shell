@@ -1,7 +1,7 @@
 CMakeFiles/test_commands.dir/src/parse.c.o: \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c \
  /usr/include/stdc-predef.h \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/parse.h \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/parse.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

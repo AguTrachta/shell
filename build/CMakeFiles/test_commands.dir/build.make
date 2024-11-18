@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell
+CMAKE_SOURCE_DIR = /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build
+CMAKE_BINARY_DIR = /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_commands.dir/depend.make
@@ -73,60 +73,60 @@ CMakeFiles/test_commands.dir/codegen:
 .PHONY : CMakeFiles/test_commands.dir/codegen
 
 CMakeFiles/test_commands.dir/tests/test_commands.c.o: CMakeFiles/test_commands.dir/flags.make
-CMakeFiles/test_commands.dir/tests/test_commands.c.o: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/tests/test_commands.c
+CMakeFiles/test_commands.dir/tests/test_commands.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/tests/test_commands.c
 CMakeFiles/test_commands.dir/tests/test_commands.c.o: CMakeFiles/test_commands.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test_commands.dir/tests/test_commands.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_commands.dir/tests/test_commands.c.o -MF CMakeFiles/test_commands.dir/tests/test_commands.c.o.d -o CMakeFiles/test_commands.dir/tests/test_commands.c.o -c //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/tests/test_commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test_commands.dir/tests/test_commands.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_commands.dir/tests/test_commands.c.o -MF CMakeFiles/test_commands.dir/tests/test_commands.c.o.d -o CMakeFiles/test_commands.dir/tests/test_commands.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/tests/test_commands.c
 
 CMakeFiles/test_commands.dir/tests/test_commands.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_commands.dir/tests/test_commands.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/tests/test_commands.c > CMakeFiles/test_commands.dir/tests/test_commands.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/tests/test_commands.c > CMakeFiles/test_commands.dir/tests/test_commands.c.i
 
 CMakeFiles/test_commands.dir/tests/test_commands.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_commands.dir/tests/test_commands.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/tests/test_commands.c -o CMakeFiles/test_commands.dir/tests/test_commands.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/tests/test_commands.c -o CMakeFiles/test_commands.dir/tests/test_commands.c.s
 
 CMakeFiles/test_commands.dir/src/commands.c.o: CMakeFiles/test_commands.dir/flags.make
-CMakeFiles/test_commands.dir/src/commands.c.o: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c
+CMakeFiles/test_commands.dir/src/commands.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c
 CMakeFiles/test_commands.dir/src/commands.c.o: CMakeFiles/test_commands.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_commands.dir/src/commands.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_commands.dir/src/commands.c.o -MF CMakeFiles/test_commands.dir/src/commands.c.o.d -o CMakeFiles/test_commands.dir/src/commands.c.o -c //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_commands.dir/src/commands.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_commands.dir/src/commands.c.o -MF CMakeFiles/test_commands.dir/src/commands.c.o.d -o CMakeFiles/test_commands.dir/src/commands.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c
 
 CMakeFiles/test_commands.dir/src/commands.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_commands.dir/src/commands.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c > CMakeFiles/test_commands.dir/src/commands.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c > CMakeFiles/test_commands.dir/src/commands.c.i
 
 CMakeFiles/test_commands.dir/src/commands.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_commands.dir/src/commands.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c -o CMakeFiles/test_commands.dir/src/commands.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c -o CMakeFiles/test_commands.dir/src/commands.c.s
 
 CMakeFiles/test_commands.dir/src/parse.c.o: CMakeFiles/test_commands.dir/flags.make
-CMakeFiles/test_commands.dir/src/parse.c.o: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c
+CMakeFiles/test_commands.dir/src/parse.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c
 CMakeFiles/test_commands.dir/src/parse.c.o: CMakeFiles/test_commands.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_commands.dir/src/parse.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_commands.dir/src/parse.c.o -MF CMakeFiles/test_commands.dir/src/parse.c.o.d -o CMakeFiles/test_commands.dir/src/parse.c.o -c //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_commands.dir/src/parse.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_commands.dir/src/parse.c.o -MF CMakeFiles/test_commands.dir/src/parse.c.o.d -o CMakeFiles/test_commands.dir/src/parse.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c
 
 CMakeFiles/test_commands.dir/src/parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_commands.dir/src/parse.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c > CMakeFiles/test_commands.dir/src/parse.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c > CMakeFiles/test_commands.dir/src/parse.c.i
 
 CMakeFiles/test_commands.dir/src/parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_commands.dir/src/parse.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c -o CMakeFiles/test_commands.dir/src/parse.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c -o CMakeFiles/test_commands.dir/src/parse.c.s
 
 CMakeFiles/test_commands.dir/src/shell.c.o: CMakeFiles/test_commands.dir/flags.make
-CMakeFiles/test_commands.dir/src/shell.c.o: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c
+CMakeFiles/test_commands.dir/src/shell.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c
 CMakeFiles/test_commands.dir/src/shell.c.o: CMakeFiles/test_commands.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_commands.dir/src/shell.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_commands.dir/src/shell.c.o -MF CMakeFiles/test_commands.dir/src/shell.c.o.d -o CMakeFiles/test_commands.dir/src/shell.c.o -c //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_commands.dir/src/shell.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_commands.dir/src/shell.c.o -MF CMakeFiles/test_commands.dir/src/shell.c.o.d -o CMakeFiles/test_commands.dir/src/shell.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c
 
 CMakeFiles/test_commands.dir/src/shell.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_commands.dir/src/shell.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c > CMakeFiles/test_commands.dir/src/shell.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c > CMakeFiles/test_commands.dir/src/shell.c.i
 
 CMakeFiles/test_commands.dir/src/shell.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_commands.dir/src/shell.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c -o CMakeFiles/test_commands.dir/src/shell.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c -o CMakeFiles/test_commands.dir/src/shell.c.s
 
 # Object files for target test_commands
 test_commands_OBJECTS = \
@@ -138,19 +138,22 @@ test_commands_OBJECTS = \
 # External object files for target test_commands
 test_commands_EXTERNAL_OBJECTS =
 
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands: CMakeFiles/test_commands.dir/tests/test_commands.c.o
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands: CMakeFiles/test_commands.dir/src/commands.c.o
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands: CMakeFiles/test_commands.dir/src/parse.c.o
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands: CMakeFiles/test_commands.dir/src/shell.c.o
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands: CMakeFiles/test_commands.dir/build.make
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands: CMakeFiles/test_commands.dir/compiler_depend.ts
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands: //home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands: CMakeFiles/test_commands.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands"
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: CMakeFiles/test_commands.dir/tests/test_commands.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: CMakeFiles/test_commands.dir/src/commands.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: CMakeFiles/test_commands.dir/src/parse.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: CMakeFiles/test_commands.dir/src/shell.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: CMakeFiles/test_commands.dir/build.make
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: CMakeFiles/test_commands.dir/compiler_depend.ts
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: /home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: /usr/local/lib/libprom.so
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: /usr/local/lib/libpromhttp.so
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: CMakeFiles/test_commands.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_commands.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/test_commands.dir/build: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands
+CMakeFiles/test_commands.dir/build: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands
 .PHONY : CMakeFiles/test_commands.dir/build
 
 CMakeFiles/test_commands.dir/clean:
@@ -158,6 +161,6 @@ CMakeFiles/test_commands.dir/clean:
 .PHONY : CMakeFiles/test_commands.dir/clean
 
 CMakeFiles/test_commands.dir/depend:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles/test_commands.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles/test_commands.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_commands.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/shell.dir/src/shell.c.o: \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c \
  /usr/include/stdc-predef.h \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/shell.h \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/shell.h \
  /usr/include/signal.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -73,9 +73,9 @@ CMakeFiles/shell.dir/src/shell.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/commands.h \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/shell.h \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/parse.h \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/commands.h \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/shell.h \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/include/parse.h \
  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \

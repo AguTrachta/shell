@@ -18,7 +18,7 @@ find_package(cJSON REQUIRED)
 include_directories(include)
 
 # Set the output directory for executables
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin")
 
 # Add Monitoring project as a subdirectory
 add_subdirectory(monitor_program)
@@ -33,6 +33,7 @@ add_executable(shell
 
 # Link necessary libraries for Shell
 target_link_libraries(shell
+    monitoring_project # Ensure the monitoring project library is linked
     cjson::cjson
     readline
     m
@@ -51,14 +52,14 @@ add_executable(test_commands
 )
 
 # Set output directory for test_commands
-set_target_properties(test_commands PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}")
+set_target_properties(test_commands PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin")
 
 # Link necessary libraries to the test executable
 target_link_libraries(test_commands
+    monitoring_project # Ensure the monitoring project library is linked
     cjson::cjson
     readline
     m
     gcov # Required for code coverage
 )
-
 

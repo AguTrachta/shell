@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell
+CMAKE_SOURCE_DIR = /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build
+CMAKE_BINARY_DIR = /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -E cmake_progress_start //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program//CMakeFiles/progress.marks
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/all
-	$(CMAKE_COMMAND) -E cmake_progress_start //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles 0
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program//CMakeFiles/progress.marks
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/clean
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/preinstall
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/preinstall
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 monitor_program/CMakeFiles/monitoring_project.dir/rule:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/CMakeFiles/monitoring_project.dir/rule
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_program/CMakeFiles/monitoring_project.dir/rule
 .PHONY : monitor_program/CMakeFiles/monitoring_project.dir/rule
 
 # Convenience name for target.
@@ -127,15 +127,63 @@ monitoring_project: monitor_program/CMakeFiles/monitoring_project.dir/rule
 
 # fast build rule for target.
 monitoring_project/fast:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/build
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/build
 .PHONY : monitoring_project/fast
+
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.o: home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.o
+
+# target to build an object file
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o:
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o
+
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.i: home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.i
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.i
+
+# target to preprocess a source file
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.i:
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.i
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.i
+
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.s: home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.s
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.s
+
+# target to generate assembly for a file
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.s:
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.s
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.s
+
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.o: home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.o
+
+# target to build an object file
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o:
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o
+
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.i: home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.i
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.i
+
+# target to preprocess a source file
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.i:
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.i
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.i
+
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.s: home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.s
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.s
+
+# target to generate assembly for a file
+home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.s:
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.s
+.PHONY : home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.s
 
 src/expose_metrics.o: src/expose_metrics.c.o
 .PHONY : src/expose_metrics.o
 
 # target to build an object file
 src/expose_metrics.c.o:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o
 .PHONY : src/expose_metrics.c.o
 
 src/expose_metrics.i: src/expose_metrics.c.i
@@ -143,7 +191,7 @@ src/expose_metrics.i: src/expose_metrics.c.i
 
 # target to preprocess a source file
 src/expose_metrics.c.i:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.i
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.i
 .PHONY : src/expose_metrics.c.i
 
 src/expose_metrics.s: src/expose_metrics.c.s
@@ -151,7 +199,7 @@ src/expose_metrics.s: src/expose_metrics.c.s
 
 # target to generate assembly for a file
 src/expose_metrics.c.s:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.s
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.s
 .PHONY : src/expose_metrics.c.s
 
 src/json_metrics.o: src/json_metrics.c.o
@@ -159,7 +207,7 @@ src/json_metrics.o: src/json_metrics.c.o
 
 # target to build an object file
 src/json_metrics.c.o:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o
 .PHONY : src/json_metrics.c.o
 
 src/json_metrics.i: src/json_metrics.c.i
@@ -167,7 +215,7 @@ src/json_metrics.i: src/json_metrics.c.i
 
 # target to preprocess a source file
 src/json_metrics.c.i:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.i
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.i
 .PHONY : src/json_metrics.c.i
 
 src/json_metrics.s: src/json_metrics.c.s
@@ -175,7 +223,7 @@ src/json_metrics.s: src/json_metrics.c.s
 
 # target to generate assembly for a file
 src/json_metrics.c.s:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.s
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.s
 .PHONY : src/json_metrics.c.s
 
 src/main.o: src/main.c.o
@@ -183,7 +231,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -191,7 +239,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.i
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -199,7 +247,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.s
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 src/metrics.o: src/metrics.c.o
@@ -207,7 +255,7 @@ src/metrics.o: src/metrics.c.o
 
 # target to build an object file
 src/metrics.c.o:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o
 .PHONY : src/metrics.c.o
 
 src/metrics.i: src/metrics.c.i
@@ -215,7 +263,7 @@ src/metrics.i: src/metrics.c.i
 
 # target to preprocess a source file
 src/metrics.c.i:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.i
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.i
 .PHONY : src/metrics.c.i
 
 src/metrics.s: src/metrics.c.s
@@ -223,7 +271,7 @@ src/metrics.s: src/metrics.c.s
 
 # target to generate assembly for a file
 src/metrics.c.s:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.s
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(MAKE) $(MAKESILENT) -f monitor_program/CMakeFiles/monitoring_project.dir/build.make monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.s
 .PHONY : src/metrics.c.s
 
 # Help Target
@@ -235,6 +283,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... monitoring_project"
+	@echo "... home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.o"
+	@echo "... home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.i"
+	@echo "... home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.s"
+	@echo "... home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.o"
+	@echo "... home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.i"
+	@echo "... home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.s"
 	@echo "... src/expose_metrics.o"
 	@echo "... src/expose_metrics.i"
 	@echo "... src/expose_metrics.s"
@@ -258,6 +312,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

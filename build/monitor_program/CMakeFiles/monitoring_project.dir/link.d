@@ -1,4 +1,4 @@
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: \
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
@@ -6,6 +6,8 @@
   CMakeFiles/monitoring_project.dir/src/metrics.c.o \
   CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o \
   CMakeFiles/monitoring_project.dir/src/json_metrics.c.o \
+  CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o \
+  CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o \
   /usr/local/lib/libprom.so \
   /usr/local/lib/libpromhttp.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
@@ -14,7 +16,7 @@
   /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libmvec.so.1 \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libpthread.a \
-  //home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a \
+  /home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
@@ -66,6 +68,10 @@ CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o:
 
 CMakeFiles/monitoring_project.dir/src/json_metrics.c.o:
 
+CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o:
+
+CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o:
+
 /usr/local/lib/libprom.so:
 
 /usr/local/lib/libpromhttp.so:
@@ -82,7 +88,7 @@ CMakeFiles/monitoring_project.dir/src/json_metrics.c.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libpthread.a:
 
-//home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a:
+/home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so:
 

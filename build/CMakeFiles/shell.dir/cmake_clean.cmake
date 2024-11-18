@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/shell"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/shell.pdb"
   "CMakeFiles/shell.dir/link.d"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/shell"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/shell.pdb"
   "CMakeFiles/shell.dir/src/commands.c.o"
   "CMakeFiles/shell.dir/src/commands.c.o.d"
   "CMakeFiles/shell.dir/src/main.c.o"

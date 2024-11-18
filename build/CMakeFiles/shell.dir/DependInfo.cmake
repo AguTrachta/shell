@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c" "CMakeFiles/shell.dir/src/commands.c.o" "gcc" "CMakeFiles/shell.dir/src/commands.c.o.d"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/main.c" "CMakeFiles/shell.dir/src/main.c.o" "gcc" "CMakeFiles/shell.dir/src/main.c.o.d"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c" "CMakeFiles/shell.dir/src/parse.c.o" "gcc" "CMakeFiles/shell.dir/src/parse.c.o.d"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c" "CMakeFiles/shell.dir/src/shell.c.o" "gcc" "CMakeFiles/shell.dir/src/shell.c.o.d"
-  "" "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/shell" "gcc" "CMakeFiles/shell.dir/link.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/commands.c" "CMakeFiles/shell.dir/src/commands.c.o" "gcc" "CMakeFiles/shell.dir/src/commands.c.o.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/main.c" "CMakeFiles/shell.dir/src/main.c.o" "gcc" "CMakeFiles/shell.dir/src/main.c.o.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/parse.c" "CMakeFiles/shell.dir/src/parse.c.o" "gcc" "CMakeFiles/shell.dir/src/parse.c.o.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/src/shell.c" "CMakeFiles/shell.dir/src/shell.c.o" "gcc" "CMakeFiles/shell.dir/src/shell.c.o.d"
+  "" "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/shell" "gcc" "CMakeFiles/shell.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

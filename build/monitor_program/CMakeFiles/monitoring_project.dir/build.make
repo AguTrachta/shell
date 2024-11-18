@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell
+CMAKE_SOURCE_DIR = /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build
+CMAKE_BINARY_DIR = /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build
 
 # Include any dependencies generated for this target.
 include monitor_program/CMakeFiles/monitoring_project.dir/depend.make
@@ -73,93 +73,122 @@ monitor_program/CMakeFiles/monitoring_project.dir/codegen:
 .PHONY : monitor_program/CMakeFiles/monitoring_project.dir/codegen
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o: monitor_program/CMakeFiles/monitoring_project.dir/flags.make
-monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c
+monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c
 monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o: monitor_program/CMakeFiles/monitoring_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o -MF CMakeFiles/monitoring_project.dir/src/main.c.o.d -o CMakeFiles/monitoring_project.dir/src/main.c.o -c //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o -MF CMakeFiles/monitoring_project.dir/src/main.c.o.d -o CMakeFiles/monitoring_project.dir/src/main.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/monitoring_project.dir/src/main.c.i"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c > CMakeFiles/monitoring_project.dir/src/main.c.i
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c > CMakeFiles/monitoring_project.dir/src/main.c.i
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/monitoring_project.dir/src/main.c.s"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c -o CMakeFiles/monitoring_project.dir/src/main.c.s
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c -o CMakeFiles/monitoring_project.dir/src/main.c.s
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o: monitor_program/CMakeFiles/monitoring_project.dir/flags.make
-monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c
+monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c
 monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o: monitor_program/CMakeFiles/monitoring_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o -MF CMakeFiles/monitoring_project.dir/src/metrics.c.o.d -o CMakeFiles/monitoring_project.dir/src/metrics.c.o -c //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o -MF CMakeFiles/monitoring_project.dir/src/metrics.c.o.d -o CMakeFiles/monitoring_project.dir/src/metrics.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/monitoring_project.dir/src/metrics.c.i"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c > CMakeFiles/monitoring_project.dir/src/metrics.c.i
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c > CMakeFiles/monitoring_project.dir/src/metrics.c.i
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/monitoring_project.dir/src/metrics.c.s"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c -o CMakeFiles/monitoring_project.dir/src/metrics.c.s
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c -o CMakeFiles/monitoring_project.dir/src/metrics.c.s
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o: monitor_program/CMakeFiles/monitoring_project.dir/flags.make
-monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c
+monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c
 monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o: monitor_program/CMakeFiles/monitoring_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o -MF CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o.d -o CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o -c //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o -MF CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o.d -o CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/monitoring_project.dir/src/expose_metrics.c.i"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c > CMakeFiles/monitoring_project.dir/src/expose_metrics.c.i
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c > CMakeFiles/monitoring_project.dir/src/expose_metrics.c.i
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/monitoring_project.dir/src/expose_metrics.c.s"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c -o CMakeFiles/monitoring_project.dir/src/expose_metrics.c.s
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c -o CMakeFiles/monitoring_project.dir/src/expose_metrics.c.s
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o: monitor_program/CMakeFiles/monitoring_project.dir/flags.make
-monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c
+monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c
 monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o: monitor_program/CMakeFiles/monitoring_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o -MF CMakeFiles/monitoring_project.dir/src/json_metrics.c.o.d -o CMakeFiles/monitoring_project.dir/src/json_metrics.c.o -c //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o -MF CMakeFiles/monitoring_project.dir/src/json_metrics.c.o.d -o CMakeFiles/monitoring_project.dir/src/json_metrics.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/monitoring_project.dir/src/json_metrics.c.i"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c > CMakeFiles/monitoring_project.dir/src/json_metrics.c.i
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c > CMakeFiles/monitoring_project.dir/src/json_metrics.c.i
 
 monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/monitoring_project.dir/src/json_metrics.c.s"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c -o CMakeFiles/monitoring_project.dir/src/json_metrics.c.s
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c -o CMakeFiles/monitoring_project.dir/src/json_metrics.c.s
+
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o: monitor_program/CMakeFiles/monitoring_project.dir/flags.make
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o: monitor_program/CMakeFiles/monitoring_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o -MF CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o.d -o CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c
+
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.i"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c > CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.i
+
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.s"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c -o CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.s
+
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o: monitor_program/CMakeFiles/monitoring_project.dir/flags.make
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o: monitor_program/CMakeFiles/monitoring_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o -MF CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o.d -o CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o -c /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c
+
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.i"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c > CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.i
+
+monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.s"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c -o CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.s
 
 # Object files for target monitoring_project
 monitoring_project_OBJECTS = \
 "CMakeFiles/monitoring_project.dir/src/main.c.o" \
 "CMakeFiles/monitoring_project.dir/src/metrics.c.o" \
 "CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o" \
-"CMakeFiles/monitoring_project.dir/src/json_metrics.c.o"
+"CMakeFiles/monitoring_project.dir/src/json_metrics.c.o" \
+"CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o" \
+"CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o"
 
 # External object files for target monitoring_project
 monitoring_project_EXTERNAL_OBJECTS =
 
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: monitor_program/CMakeFiles/monitoring_project.dir/build.make
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: monitor_program/CMakeFiles/monitoring_project.dir/compiler_depend.ts
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: /usr/local/lib/libprom.so
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: /usr/local/lib/libpromhttp.so
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: //home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project: monitor_program/CMakeFiles/monitoring_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project"
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monitoring_project.dir/link.txt --verbose=$(VERBOSE)
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a: monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a: monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a: monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a: monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a: monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a: monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a: monitor_program/CMakeFiles/monitoring_project.dir/build.make
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a: monitor_program/CMakeFiles/monitoring_project.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && $(CMAKE_COMMAND) -P CMakeFiles/monitoring_project.dir/cmake_clean_target.cmake
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monitoring_project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-monitor_program/CMakeFiles/monitoring_project.dir/build: //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project
+monitor_program/CMakeFiles/monitoring_project.dir/build: /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a
 .PHONY : monitor_program/CMakeFiles/monitoring_project.dir/build
 
 monitor_program/CMakeFiles/monitoring_project.dir/clean:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && $(CMAKE_COMMAND) -P CMakeFiles/monitoring_project.dir/cmake_clean.cmake
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program && $(CMAKE_COMMAND) -P CMakeFiles/monitoring_project.dir/cmake_clean.cmake
 .PHONY : monitor_program/CMakeFiles/monitoring_project.dir/clean
 
 monitor_program/CMakeFiles/monitoring_project.dir/depend:
-	cd //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program/CMakeFiles/monitoring_project.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/build/monitor_program/CMakeFiles/monitoring_project.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : monitor_program/CMakeFiles/monitoring_project.dir/depend
 

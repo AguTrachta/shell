@@ -1,4 +1,4 @@
-//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands: \
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands: \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
@@ -6,6 +6,7 @@
   CMakeFiles/test_commands.dir/src/commands.c.o \
   CMakeFiles/test_commands.dir/src/parse.c.o \
   CMakeFiles/test_commands.dir/src/shell.c.o \
+  /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libreadline.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
@@ -13,7 +14,10 @@
   /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libmvec.so.1 \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcov.a \
-  //home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a \
+  /home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a \
+  /usr/local/lib/libprom.so \
+  /usr/local/lib/libpromhttp.so \
+  /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libpthread.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
@@ -57,6 +61,8 @@ CMakeFiles/test_commands.dir/src/parse.c.o:
 
 CMakeFiles/test_commands.dir/src/shell.c.o:
 
+/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libreadline.so:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so:
@@ -71,7 +77,13 @@ CMakeFiles/test_commands.dir/src/shell.c.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/libgcov.a:
 
-//home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a:
+/home/agustin/.conan2/p/b/cjson4cef66d6a3a5a/p/lib/libcjson.a:
+
+/usr/local/lib/libprom.so:
+
+/usr/local/lib/libpromhttp.so:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libpthread.a:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so:
 

@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c" "monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o.d"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c" "monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o.d"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c" "monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o.d"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c" "monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o.d"
-  "" "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/link.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c" "monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c" "monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c" "monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/json_metrics.c" "monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/src/json_metrics.c.o.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/main.c" "monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/src/main.c.o.d"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/metrics.c" "monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o" "gcc" "monitor_program/CMakeFiles/monitoring_project.dir/src/metrics.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

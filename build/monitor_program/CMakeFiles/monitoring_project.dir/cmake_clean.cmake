@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/monitoring_project.dir/link.d"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitoring_project.pdb"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.a"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/libmonitoring_project.pdb"
+  "CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o"
+  "CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/memory.c.o.d"
+  "CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o"
+  "CMakeFiles/monitoring_project.dir/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/lib/memory/src/stats_memory.c.o.d"
   "CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o"
   "CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o.d"
   "CMakeFiles/monitoring_project.dir/src/json_metrics.c.o"

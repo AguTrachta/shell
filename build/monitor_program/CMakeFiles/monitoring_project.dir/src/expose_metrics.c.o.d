@@ -1,8 +1,8 @@
 monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o: \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/expose_metrics.c \
  /usr/include/stdc-predef.h \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/../include/expose_metrics.h \
- //home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/../include/metrics.h \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/../include/expose_metrics.h \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/../include/metrics.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -114,5 +114,8 @@ monitor_program/CMakeFiles/monitoring_project.dir/src/expose_metrics.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/../../../lib/memory/include/memory.h \
+ /usr/include/dlfcn.h /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
+ /home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/monitor_program/src/../../../lib/memory/include/stats_memory.h \
  /usr/local/include/prom_collector_registry.h \
  /usr/local/include/prom_gauge.h

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands"
+  "/home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/bin/test_commands.pdb"
   "CMakeFiles/test_commands.dir/link.d"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands"
-  "//home/agustin/Documents/importante/facultad/SistOperativos1/TP3/so-i-24-chp3-AguTrachta/shell/test_commands.pdb"
   "CMakeFiles/test_commands.dir/src/commands.c.o"
   "CMakeFiles/test_commands.dir/src/commands.c.o.d"
   "CMakeFiles/test_commands.dir/src/parse.c.o"
